@@ -1,22 +1,35 @@
 body {
-	/* margin auto 0 makes everything in place*/
+	/* margin auto 0 makes everything in place, changes all the font*/
 	margin: auto 0;
 	background-color: #FAFAFA;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
+/* Makes the orange part of nav */
 nav {
 	background-color: #FB7F00;
-	display: inline;
+    /*height: 125px;*/
+    height: 7.75rem;
 }
 
+/* Moves logo right */
 .logo {
 	color: white;
+    padding-left: 90px;
+    font-size: 40px;
 }
 
+/* Makes the menu nav move to the right*/
 .menu li {
 	list-style: none;
 	float: right;
+    padding-right: 80px;
+}
 
+/* Turns the nav links white & removes underline from link*/
+.menu a {
+    color: white;
+    text-decoration: none;
 }
 
 footer {
@@ -27,28 +40,41 @@ footer {
 .search {
 	border-color: black;
 	border-width: 1px;
+    float: right;
+    padding-right: 50px;
+
+}
+
+.buttons {
+    padding-right: 100px;
 }
 
 .button1 {
     background-color: #FC7E00;
-    border: none;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #e67300;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    float: right;
 }
 
 .button2 {
     background-color: #77CCC7;
-    border: none;
+    border: solid;
+    border-width: 1.5px;
+    border-color: #6bc7c1;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    float: right;
 }
 
 .intro{
@@ -68,4 +94,20 @@ color: #DACDC3;
 /* Makes the Trademark orange */
 .tm {
 	color: #80B6AC;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 4rem;
+
+}
+
+.intro {
+    margin-left: 50px;
+    font-size: 45px;
+    word-wrap: break-word;
+    margin-left: 50px;
 }
